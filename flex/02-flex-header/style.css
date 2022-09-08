@@ -1,25 +1,63 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  border: white solid 3px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .logo {
+  display: flex;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  justify-content: center;
+  align-items: center;
+  max-height: 36px; 
 }
 
 ul {
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  flex: 1;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px; 
 }
 
 a {
+  display: flex;
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 6px;
+  margin: 6px;
   /* this removes the line under the links */
   text-decoration: none;
 }
+ 
+
+.left-links {
+  display: flex;
+  margin-right: auto;
+  padding-left: 5px;
+  
+}
+
+.right-links{
+  display: flex;
+  margin-left: auto;
+}
+
+
+/* * {
+  border: solid 1px;
+} */
